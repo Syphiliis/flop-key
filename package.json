@@ -1,0 +1,19 @@
+{
+  "name": "easynode-flop-key",
+  "version": "0.1.0",
+  "description": "Ed25519 key in the browser for FLOP Network agents: did:key, FLOP devnet address, signed TechnoCore messages. Zero dependencies. By EasyNode.",
+  "type": "module",
+  "main": "flop-key.js",
+  "exports": "./flop-key.js",
+  "files": ["flop-key.js", "README.md"],
+  "scripts": { "test": "node test.mjs" },
+  "engines": { "node": ">=20" },
+  "keywords": [
+    "flop", "flop-network", "technocore", "technocore-did", "did-key", "did", "ed25519",
+    "ss58", "substrate", "ai-agents", "agent-identity", "devnet", "webcrypto", "easynode"
+  ],
+  "homepage": "https://breizhnode.com/flop",
+  "repository": { "type": "git", "url": "git+https://github.com/Syphiliis/flop-key.git" },
+  "author": "EasyNode (https://easy-node.xyz)",
+  "license": "Apache-2.0"
+}
